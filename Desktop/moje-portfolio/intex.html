@@ -1,20 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moje portfolio</title>
 
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="normalize.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="main">
+        
+        <h1>FRONT END DEVELOPER</h1>
+        <p>HTML∙CSS∙JavaScript</p>
+        <input type="submit" value="Dowiedz się więcej">
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="O mnie">O mnie</a></li>
+            <li><a href="Portfolio">Portfolio</a></li>
+            <li><a href="Kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <section class="about">
+
+            <h2>O mnie</h2>
+            <img src="img/about.jpg">
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsam sapiente ex maxime magni aut id voluptatibus modi corporis numquam sit!</P>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, blanditiis doloremque?
+                Perspiciatis ipsam temporibus doloribus quas illo recusandae quaerat similique!</p>
+
+        </section>
+    </section>
+
+    <section>
+        <section class="portfolio">
+
+            <h2>PORTFOLIO</h2>
+            <img src="img/portfolio/photo-1.jpg">
+            <img src="img/portfolio/photo-2.jpg">
+            <img src="img/portfolio/photo-3.jpg">
+            <img src="img/portfolio/photo-4.jpg">
+            <img src="img/portfolio/photo-5.jpg">
+            <img src="img/portfolio/photo-6.jpg">
+            <img src="img/portfolio/photo-7.jpg">
+            <img src="img/portfolio/photo-8.jpg">
+            <img src="img/portfolio/photo-9.jpg">
+            <img src="img/portfolio/photo-10.jpg">
+            <img src="img/portfolio/photo-11.jpg">
+            <img src="img/portfolio/photo-12.jpg">
+
+        </section>
+    </section>
+
+    <section>
+        <section class="form">
+
+            <h2>KONTAKT</h2>
+            <form action="form.php" method="POST">
+
+                <input type="text" name="imie" id="imie">
+
+                <input type="email" name="male" id="Email">
+
+                <textarea maxlength="500" name="message"></textarea>
+
+                <input type="submit" value="Wyślij wiadomość" >
+
+            </form>
+
+            <a href="https://Facebook.com">Facebook</a>
+            <a href="https://Twitter.com">Twitter</a>
+            <a href="https://Instagram.com">Instagram</a>
+            <a href="https://Youtube.com">Youtube</a>
+
+        </section>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; Akademia 108 - Szkoła programowania</p>
+    </footer>
+
+
 </body>
+
 </html>
