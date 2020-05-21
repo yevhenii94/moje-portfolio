@@ -1,0 +1,25 @@
+body {
+    background-color: #FFF8DC;
+}
+
+.sq {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.mt {
+    margin-top: 15px;
+}
+
+.two {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.three {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.four {
+    background: rgba(0, 0, 0, 0.2);
+}
